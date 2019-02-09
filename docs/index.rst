@@ -5,7 +5,18 @@ Linux Mint Developer Guide
       :width: 100px
       :align: right
 
-Welcome to the Linux Mint Developer Guide.
+If you want to help us develop Linux Mint, you've come to the right place!
+
+Welcome to the Linux Mint Development Guide.
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Getting Started
+
+   requirements
+   setup
+   technology
 
 .. toctree::
    :maxdepth: 1
@@ -16,14 +27,11 @@ Welcome to the Linux Mint Developer Guide.
    ootb
    overkill
    pragmatism
+   befunandpassionate
 
 .. toctree::
    :maxdepth: 1
    :caption: Requirements
-
-   english
-   befunandpassionate
-   git
 
 .. toctree::
    :maxdepth: 1
@@ -48,6 +56,7 @@ Welcome to the Linux Mint Developer Guide.
    :caption: Guidelines
 
    coding_style
+   commitmessages
    pull_requests
 
 .. toctree::
