@@ -68,3 +68,9 @@ Welcome to the Linux Mint Development Guide.
    Beinginvitedintotheteam
    Commercialaspects
 
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Design
+
+   cjs
