@@ -74,3 +74,4 @@ Welcome to the Linux Mint Development Guide.
    :caption: Design
 
    cjs
+   cinnamon
