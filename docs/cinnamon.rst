@@ -13,17 +13,17 @@ This chapter describes the main components of the Cinnamon desktop environment.
 Libraries
 ---------
 
-Cinnamon-menus
+cinnamon-menus
 ~~~~~~~~~~~~~~
 
 The `cinnamon-menus` library provides utility functions to read and monitor the set of desktop applications installed on the computer. Thanks to `cinnamon-menus`, Cinnamon can quickly list installed applications within the application menu, fetch application icons for the menu, the alt-tab selector and the window-list and keep this data in sync whenever applications are installed or removed from the computer.
 
-Cinnamon-menus is developed in C and the source code is available on `Github <https://github.com/linuxmint/cinnamon-menus>`_.
+The cinnamon-menus library is developed in C and the source code is available on `Github <https://github.com/linuxmint/cinnamon-menus>`_.
 
-Cinnamon-desktop
+cinnamon-desktop
 ~~~~~~~~~~~~~~~~
 
-`Cinnamon-desktop` is a set of utility libraries and settings used by other Cinnamon components.
+`cinnamon-desktop` is a set of utility libraries and settings used by other Cinnamon components.
 
 Whenever multiple desktop components need to access the same resource (whether this is a setting or a utility function), we place this resource in cinnamon-desktop.
 
@@ -39,7 +39,7 @@ gnome-bg          A wallpaper utility library
 gnome-installer   A cross-distribution library used to install software applications
 ================  =========================================================================
 
-Cinnamon-desktop is developed in C and the source code is available on `Github <https://github.com/linuxmint/cinnamon-desktop>`_.
+The cinnamon-desktop library is developed in C and the source code is available on `Github <https://github.com/linuxmint/cinnamon-desktop>`_.
 
 muffin
 ~~~~~~
