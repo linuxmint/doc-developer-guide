@@ -20,36 +20,18 @@ Welcome to the Linux Mint Development Guide.
 
 .. toctree::
    :maxdepth: 1
-   :caption: Philosophy
+   :caption: Projects
 
-   fun
-   all about the user
-   ootb
-   overkill
-   pragmatism
-   befunandpassionate
+   mint-tools
+   xapps
+   cinnamon
 
 .. toctree::
    :maxdepth: 1
-   :caption: Requirements
+   :caption: Getting stuff done
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Technology
-
-   toolkits
-   programming_languages
-   tools
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Compilation
-
-   set_up_environment
-   git_clone
-   build_dependencies
-   dpkgbuildpackage_and_make
-   upgrade_back_torepo_version
+   daily_builds_ppa
+   how_to_build
 
 .. toctree::
    :maxdepth: 1
@@ -61,17 +43,27 @@ Welcome to the Linux Mint Development Guide.
 
 .. toctree::
    :maxdepth: 1
+   :caption: Other things
+
+   cjs
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Philosophy
+
+   fun
+   all about the user
+   ootb
+   overkill
+   pragmatism
+   befunandpassionate
+
+
+.. toctree::
+   :maxdepth: 1
    :caption: Interacting with the team
 
    howtoproposesomethingwithoutputtingtoomuchworkintoit(PRaWIP)
    IRCchannel
    Beinginvitedintotheteam
    Commercialaspects
-
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Design
-
-   cjs
-   cinnamon

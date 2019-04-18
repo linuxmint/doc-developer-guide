@@ -1,7 +1,9 @@
-Cinnamon Design
-===============
+Cinnamon
+========
 
-This chapter describes the main components of the Cinnamon desktop environment.
+The Cinnamon desktop environment is a very large development project.
+
+This chapter describes its main components.
 
 .. figure:: images/cinnamon-design.svg
     :width: 500px
