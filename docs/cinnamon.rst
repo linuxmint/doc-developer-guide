@@ -7,7 +7,21 @@ This chapter describes the main components of the Cinnamon desktop environment.
     :width: 500px
     :align: center
 
-    Binary view of the structure of the cinnamon processes
+    Binary view of the various processes within a Cinnamon session
+
+The figure above shows the various processes at play within a Cinnamon session.
+
+After you log in, the following processes are automatically started:
+
+- cinnamon-session (the session manager which starts all the other processes)
+- cinnamon (which is the visual part of the cinnamon desktop)
+- nemo-desktop (which handles the desktop icons and desktop context menu)
+- cinnamon-screensaver (the screensaver)
+- various csd-* processes (which are settings daemon plugins and run in the background)
+
+The nemo process starts when you browse files and directories. It remains open as long as at least one file manager window is open.
+
+The cinnamon-settings process starts when you launch the `System Settings` and remains open as long as at least one configuration module is open.
 
 
 Libraries
