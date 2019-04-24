@@ -48,7 +48,7 @@ Here's an overview of some of the resources currently in `cinnamon-desktop`:
 
 ================  =========================================================================
 cinnamon.desktop  dconf settings schemas used by several Cinnamon components
-libcvc            A PulseAudio utility library used to play sounds
+libcvc            A PulseAudio utility library used to control sound volume and devices
 gnomerr           An Xrandr utility library to detect, load and save monitor configurations
 gnome-xkb         A keyboard layout utility library
 gnome-bg          A wallpaper utility library
@@ -67,6 +67,8 @@ Within the Cinnamon desktop environment, the Window Manager isn't running in a s
 .. note::
     The `muffin` package also provides a `muffin` binary. This binary is a small program which implements `libmuffin` and provides a minimal window manager, sometimes used by the developers as a troubleshooting tool. Note that whether or not `muffin` is installed by default in Linux Mint, it doesn't run by default in a Cinnamon session. The `cinnamon` process, which also implements `libmuffin`, is the default window manager.
 
+The clutter and cogl libraries are also part of the muffin package now. Clutter is a library for creating and displaying both 2d and 3d graphical elements. It is used both by muffin itself (eg. for compositing and setting up the stage), and also by St in cinnamon (all St widgets are clutter actors). Cogl is a library that clutter uses for 3d rendering.
+
 Muffin is developed in C and the source code is available on `Github <https://github.com/linuxmint/muffin>`_.
 
 cjs
@@ -76,7 +78,7 @@ CJS is Cinnamon's Javascript interpreter. It uses MozJS (Mozilla's `SpiderMonkey
 
 CJS is run by and within the main `cinnamon` process and the parts of the desktop written in Javascript are contained in the main Cinnamon component.
 
-CJS is developed in C and the source code is available on `Github <https://github.com/linuxmint/cjs>`_.
+CJS is developed in C++ and Javascript and the source code is available on `Github <https://github.com/linuxmint/cjs>`_.
 
 Core components
 ---------------
@@ -114,7 +116,7 @@ csd-xrandr               Handles screen resolution and monitors configuration
 csd-xsettings            Handles X11 and GTK configuration
 =======================  =========================================================================
 
-Cinnamon-settings is developed in C and the source code is available on `Github <https://github.com/linuxmint/cinnamon-settings-daemon>`_.
+Cinnamon-settings-daemon is developed in C and the source code is available on `Github <https://github.com/linuxmint/cinnamon-settings-daemon>`_.
 
 Visible desktop layer
 ---------------------
@@ -129,14 +131,15 @@ Cinnamon-screensaver is developed in Python and the source code is available on 
 cinnamon
 ~~~~~~~~
 
-The Cinnamon github project is the biggest and most active project within the overal project.
+The Cinnamon github project is the biggest and most active project within the overall project.
 
 It contains various subcomponents written in C:
 
 ======== ==============================================================================================
 St       Cinnamon's widget toolkit written on top of Clutter
 Appsys   An abstraction of Gio.AppInfo and cinnamon-menus, providing metadata on installed applications
-DocInfo  An abastraction of recently opened documents
+DocInfo  An abstraction of recently opened documents
+Tray     A small library for managing status icons
 ======== ==============================================================================================
 
 The visible layer of the desktop is written in Javascript:
