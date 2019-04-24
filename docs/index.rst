@@ -28,42 +28,14 @@ Welcome to the Linux Mint Development Guide.
 
 .. toctree::
    :maxdepth: 1
-   :caption: Getting stuff done
+   :caption: Development
 
+   building
    daily_builds_ppa
-   how_to_build
+   guidelines
 
 .. toctree::
    :maxdepth: 1
-   :caption: Guidelines
-
-   coding_style
-   commitmessages
-   pull_requests
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Other things
+   :caption: Extras
 
    cjs
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Philosophy
-
-   fun
-   all about the user
-   ootb
-   overkill
-   pragmatism
-   befunandpassionate
-
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Interacting with the team
-
-   howtoproposesomethingwithoutputtingtoomuchworkintoit(PRaWIP)
-   IRCchannel
-   Beinginvitedintotheteam
-   Commercialaspects
