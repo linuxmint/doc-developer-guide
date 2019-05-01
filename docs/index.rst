@@ -11,7 +11,7 @@ Welcome to the Linux Mint Development Guide.
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Getting Started
 
    requirements
@@ -19,7 +19,7 @@ Welcome to the Linux Mint Development Guide.
    technology
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Projects
 
    mint-tools
@@ -27,7 +27,7 @@ Welcome to the Linux Mint Development Guide.
    xapps
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Development
 
    building
