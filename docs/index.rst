@@ -23,8 +23,8 @@ Welcome to the Linux Mint Development Guide.
    :caption: Projects
 
    mint-tools
-   xapps
    cinnamon
+   xapps
 
 .. toctree::
    :maxdepth: 1

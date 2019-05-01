@@ -3,7 +3,23 @@ Cinnamon
 
 The Cinnamon desktop environment is a very large development project.
 
-This chapter describes its main components.
+Between 2006 and 2010 the main desktop environment for Linux Mint was GNOME 2. It was very stable and very popular.
+
+In 2011, Linux Mint 12 was unable to ship with GNOME 2. The upstream GNOME team had released a brand new desktop (GNOME 3 aka "Gnome Shell") which was using new technologies (Clutter, GTK3), which had a completely different design and implemented a radically different paradigm than its predecessor but which used the same namespaces and thus it couldn't be installed alongside GNOME 2. Following the decision from Debian to upgrade GNOME to version 3, GNOME 2 was no longer available in Linux Mint.
+
+To tackle this issue two new projects were started:
+
+- A project called "MATE" was started by a developer called Perberos. Its goal was to rename and repackage GNOME 2 so that it could be just as it was before.
+- A project called "MGSE" was started by Linux Mint. Its goal was to develop extensions for GNOME 3 to give it back some of the functionality it had lost and which was available in GNOME 2 (a panel, a systray, an application menu, a window-centric alt-tab selector, a window-list..etc).
+
+Linux Mint 12 shipped with both MATE and GNOME3+MGSE.
+
+6 months later and after a huge amount of work, MATE was becoming stable, and from a set of extensions MGSE became a fork of GNOME 3 called Cinnamon.
+
+Linux Mint 13 was the first Linux release to ship with the Cinnamon desktop. Since then Linux Mint has a MATE and a Cinnamon edition, both providing users with a conservative desktop paradigm, one forked from GNOME 2 and the other forked and derived from GNOME 3.
+
+Processes
+---------
 
 .. figure:: images/cinnamon-design.svg
     :width: 500px
