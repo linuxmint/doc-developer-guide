@@ -40,7 +40,7 @@ To open a Github account, visit `Github.com <https://github.com>`_.
 
 You'll also need to know how to use Github to browse code changes, to fork a project, to make pull requests, etc..
 
-To set up your Github account properly and learn how to use Github, visit the `Gihub Help <https://help.github.com/>`_.
+To set up your Github account properly and learn how to use Github, visit the `Github Help <https://help.github.com/>`_.
 
 Running Linux
 -------------
