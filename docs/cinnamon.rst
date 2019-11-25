@@ -173,11 +173,11 @@ Cinnamon is developed in C, Python and Javascript and the source code is availab
 nemo
 ~~~~
 
-Nemo is Cinnamon's file manager. When you open up your home directory or when browse files you're running Nemo.
+Nemo is Cinnamon's file manager. When you open up your home directory or browse files you're running Nemo.
 
 Another little part of Nemo is `nemo-desktop`. Its role is to handle desktop icons and the desktop context menu.
 
-When you log in, `nemo-desktop` is started automatically by cinnamon-session. The `nemo` process itself only starts when you're browsing through the directories and stops wen you close the last opened file manager window.
+When you log in, `nemo-desktop` is started automatically by cinnamon-session. The `nemo` process itself only starts when you're browsing through the directories and stops when you close the last opened file manager window.
 
 Nemo is developed in C and the source code is available on `Github <https://github.com/linuxmint/nemo>`_.
 
