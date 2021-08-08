@@ -33,9 +33,16 @@ Welcome to the Linux Mint Development Guide.
    building
    daily_builds_ppa
    guidelines
-
+   
 .. toctree::
    :maxdepth: 1
    :caption: Extras
 
    cjs
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Information For Translators
+   
+   translate_mint
+   translate_xlets
