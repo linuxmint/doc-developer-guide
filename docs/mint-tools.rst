@@ -6,12 +6,12 @@ The first Mint tools were developed around 2006 when the Linux Mint project was 
 
 Some tools, which were very useful in the past, also disappeared when they were no longer needed. Here's a list of the currently active tools projects developed by Linux Mint.
 
-mint-common
+mintcommon
 -----------
 
 Common utility functions and libraries used by the Mint tools are placed in the mint-common project.
 
-This project is developed in Python and its source code is available on `Github <https://github.com/linuxmint/mint-common>`_.
+This project is developed in Python and its source code is available on `Github <https://github.com/linuxmint/mintcommon>`_.
 
 mintbackup
 ----------
