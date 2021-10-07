@@ -93,6 +93,7 @@ You can install it from the repositories:
    apt install gitk
    cd ~/Sandbox/
    git clone https://github.com/linuxmint/mintsystem.git
+   cd mintsystem
    gitk
 
 From a project directory, simply type `gitk` to see the history of commits. You can also specify a branch name to see that branch instead, or a subdirectory to only see the history of a particular directory.
@@ -105,6 +106,7 @@ From a project directory, simply type `gitk` to see the history of commits. You 
    apt install gitg
    cd ~/Sandbox/
    git clone https://github.com/linuxmint/mintsystem.git
+   cd mintsystem
    gitg
 
 From the repository you can also look at `git-cola` and `git-gui`.
@@ -166,7 +168,7 @@ Meld is a visual diff tool. It shows the differences between two files and it's 
 Other cool tools
 ~~~~~~~~~~~~~~~~
 
-Most of our configuration is stored in dconf and we use gsettings (from the command line) to look at it or modify it. If you want to do graphically, you can install dconf-editor.
+Most of our configuration is stored in dconf and we use gsettings (from the command line) to look at it or modify it. If you want to do it graphically, you can install dconf-editor.
 
 awf is useful to test widgets when working on GTK themes.
 
