@@ -26,7 +26,7 @@ C
 
 Many software applications and most libraries are written in `C <https://en.wikipedia.org/wiki/C_(programming_language)>`_.
 
-The C language is low-level, hard to master and tedious to develop with, but it gives fast performance and it's most supported language in Linux (everything is accessible from C).
+The C language is low-level, hard to master and tedious to develop with, but it gives fast performance and it's the most supported language in Linux (everything is accessible from C).
 
 Javascript
 ~~~~~~~~~~
@@ -70,7 +70,7 @@ If you install Sublime, also install its `Package Control <https://packagecontro
 
 `Visual Studio Code <https://code.visualstudio.com/>`_ is also very popular within the team.
 
-You can also check `Atom <https://atom.io/>`_, `Brackets <http://brackets.io/>`_ and `Geany <https://www.geany.org/>`_.
+You can also check out `Atom <https://atom.io/>`_, `Brackets <http://brackets.io/>`_ and `Geany <https://www.geany.org/>`_.
 
 And if you want a complete IDE, there's also `Eclipse <https://www.eclipse.org/>`_ and `Netbeans <https://www.eclipse.org/>`_.
 
@@ -79,7 +79,7 @@ Version control
 
 There's less choice when it comes to version control because we're all using git and nothing else. All our code is version-controlled with it.
 
-That said, you don't necessarily have to use the git command line.
+That being said, you don't necessarily have to use the git command line.
 
 Here are a few tools you can use to make using git easier.
 
