@@ -90,7 +90,7 @@ Muffin is developed in C and the source code is available on `Github <https://gi
 cjs
 ~~~
 
-CJS is Cinnamon's Javascript interpreter. It uses MozJS (Mozilla's `SpiderMonkey <https://www.mozilla.org/js/spidermonkey/>`_) and makes it possible to work with GObject and interact with GIR, GNOME and Cinnamon libraries using that language.
+CJS is Cinnamon's Javascript interpreter. It uses MozJS (Mozilla's `SpiderMonkey <https://spidermonkey.dev/>`_) and makes it possible to work with GObject and interact with GIR, GNOME and Cinnamon libraries using that language.
 
 CJS is run by and within the main `cinnamon` process and the parts of the desktop written in Javascript are contained in the main Cinnamon component.
 
