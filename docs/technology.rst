@@ -120,7 +120,7 @@ Glade
 
 We can write our user interfaces in programming language, or we can use Glade and draw them with the mouse.
 
-`Glade <https://developer.gnome.org/glade/stable/>`_ is a tool to design and edit GTK user interfaces and save them in XML (in a .glade or .ui file).
+`Glade <https://glade.gnome.org/>`_ is a tool to design and edit GTK user interfaces and save them in XML (in a .glade or .ui file).
 
 .. code-block:: bash
 
