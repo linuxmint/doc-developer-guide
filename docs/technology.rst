@@ -72,7 +72,7 @@ If you install Sublime, also install its `Package Control <https://packagecontro
 
 You can also check out `Atom <https://atom.io/>`_, `Brackets <http://brackets.io/>`_ and `Geany <https://www.geany.org/>`_.
 
-And if you want a complete IDE, there's also `Eclipse <https://www.eclipse.org/>`_ and `Netbeans <https://www.eclipse.org/>`_.
+And if you want a complete IDE, there's also `Eclipse <https://www.eclipse.org/>`_ and `Netbeans <https://netbeans.apache.org/>`_.
 
 Version control
 ~~~~~~~~~~~~~~~
