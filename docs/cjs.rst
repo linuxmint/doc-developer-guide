@@ -76,7 +76,7 @@ Using hashmaps vs properties
 
 Using ``this.smallobject['property']`` is faster than ``this.smallobject.property``.
 
-The idea is confirmed by https://jsperf.com/dot-notation-vs-square-bracket-notation.
+The idea is confirmed by https://www.freecodecamp.org/news/dot-notation-vs-square-brackets-javascript/.
 
 So instead of using:
 
