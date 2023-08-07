@@ -109,6 +109,8 @@ From a project directory, simply type `gitk` to see the history of commits. You 
    cd mintsystem
    gitg
 
+Note: gitg is included in `mint-dev-tools <https://linuxmint-developer-guide.readthedocs.io/en/latest/setup.html#install-mint-dev-tools/>`_. You can find gitg and other tools that will help with development on mint already installed.
+
 From the repository you can also look at `git-cola` and `git-gui`.
 
 If you're looking for a more complete solution, have a look at `Gitkraken <https://www.gitkraken.com/>`_.
