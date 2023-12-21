@@ -31,7 +31,7 @@ Welcome to the Linux Mint Development Guide.
    :caption: Development
 
    building
-   daily_builds_ppa
+   romeo
    guidelines
 
 .. toctree::
