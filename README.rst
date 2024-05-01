@@ -15,22 +15,21 @@ Build:
 
 To build locally install ``python-sphinx``
 
-```
-sudo apt-get install python3-sphinx
-```
+.. code-block:: shelscript
+    sudo apt-get install python3-sphinx
+
 If you don't ``python`` installed, it will install for you.
 
 after that you need to install ``pip``
 
-```
-sudo apt install python3-pip
-```
+.. code-block:: shelscript
+    sudo apt install python3-pip
 
 and using ``pip3`` you will install the 
 
-```
-pip3 install sphinx sphinx_rtd_them
-```
+.. code-block:: shelscript
+    pip3 install sphinx sphinx_rtd_them
+
 
 to finally  run ``make html`` in the ``docs`` directory.
 
