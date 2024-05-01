@@ -19,15 +19,15 @@ To build locally install ``python-sphinx``
 
     sudo apt-get install python3-sphinx
 
-If you don't ``python`` installed, it will install for you.
+If you don't have``python`` installed, it will install for you.
 
-after that you need to install ``pip``
+after that, you need to install ``pip``
 
 .. code-block:: bash
     
     sudo apt install python3-pip
 
-and using ``pip3`` you will install the 
+and using ``pip3`` you will install the ``sphinx`` and ``sphinx_rtd_them`` 
 
 .. code-block:: bash
     
@@ -35,6 +35,8 @@ and using ``pip3`` you will install the
 
 
 to finally  run ``make html`` in the ``docs`` directory.
+
+The final result will be in the ``_build`` directory.
 
 
 Resources:
