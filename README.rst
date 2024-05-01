@@ -21,7 +21,7 @@ To build locally, install ``python3-sphinx`` and ``python3-sphinx-rtd-theme``
 
 If you don't have``python`` installed, it will install for you.
 
-An then you can finally run ``make html`` in the ``docs`` directory.
+And run ``make html`` in the ``docs`` directory.
 
 The final result will be in the ``_build`` directory.
 
