@@ -12,7 +12,7 @@ Jason is the only one in the team to see an impact from them. He's running a slo
 
 These changes were tested in windowManager.js, an area of Cinnamon which is run constantly and which is prominent within the single execution thread.
 
-Reducing the overal number of gsettings signal listeners
+Reducing the overall number of gsettings signal listeners
 --------------------------------------------------------
 
 Here's an example: https://github.com/linuxmint/Cinnamon/commit/47bef00856e3b1f5a1e1a19e829dec498376d033
@@ -54,7 +54,7 @@ was slower than:
    settings.connect('changed::int_property1', (s, k) => this.setProperty(s, k, 'int'));
    settings.connect('changed::string_property2', (s, k) => this.setProperty(s, k, 'string'));
 
-It makes ``setProperty()`` slower of course, although that's usually not critical, but it makes the overal project faster.
+It makes ``setProperty()`` slower of course, although that's usually not critical, but it makes the overall project faster.
 
 The impact wasn't as significant and this optimization is probably only suited to critical paths such as windowmanager.js.
 
