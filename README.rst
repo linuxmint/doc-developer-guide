@@ -25,8 +25,7 @@ And run ``make html`` in the ``docs`` directory.
 
 The final result will be in the ``_build`` directory.
 
-
-Alternatively, you can use ``pip3`` to complete the process
+Alternatively, you can use ``pip3`` to complete the process, but pay attention that this should be done only if you are in a virtual environment.
 
 .. code-block:: bash
     
