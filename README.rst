@@ -13,7 +13,32 @@ Build:
     :alt: Documentation Status
 
 
-To build locally install ``python-sphinx`` and run ``make html`` in the ``docs`` directory.
+To build locally, install ``python3-sphinx`` and ``python3-sphinx-rtd-theme``
+
+.. code-block:: bash
+
+    sudo apt-get install python3-sphinx python3-sphinx-rtd-theme
+
+If you don't have``python`` installed, it will install for you.
+
+And run ``make html`` in the ``docs`` directory.
+
+The final result will be in the ``_build`` directory.
+
+Alternatively, you can use ``pip3`` to complete the process, but pay attention that this should be done only if you are in a virtual environment.
+
+.. code-block:: bash
+    
+    sudo apt install python3-pip
+
+and using ``pip3`` you will install the ``sphinx`` and ``sphinx_rtd_them`` 
+
+.. code-block:: bash
+    
+    pip3 install sphinx sphinx_rtd_them
+
+and then, run ``make html`` in the ``docs`` directory to get the same result.
+
 
 Resources:
 ----------
