@@ -177,6 +177,6 @@ awf is useful to test widgets when working on GTK themes.
 .. code-block:: bash
 
    apt update
-   apt install awf dconf-editor
+   apt install awf-gtk3 dconf-editor
 
 
