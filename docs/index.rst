@@ -33,6 +33,7 @@ Welcome to the Linux Mint Development Guide.
    building
    romeo
    guidelines
+   documentation
 
 .. toctree::
    :maxdepth: 1
