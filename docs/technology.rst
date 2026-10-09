@@ -36,12 +36,12 @@ The graphical elements of Cinnamon, as well as Cinnamon applets, desklets and ex
 Vala
 ~~~~
 
-`Vala <https://wiki.gnome.org/Projects/Vala>`_ is used in Slick Greeter (the login screen).
+`Vala <https://gitlab.gnome.org/GNOME/vala/#what-is-vala>`_ is used in Slick Greeter (the login screen).
 
 GNOME Toolkit and libraries
 ---------------------------
 
-All our user interfaces use `GTK3 <https://developer.gnome.org/gtk3/stable/>`_ toolkit.
+All our user interfaces use `GTK3 <https://docs.gtk.org/gtk3/>`_ toolkit.
 
 Our development relies heavily on the `GNOME libraries <https://developer.gnome.org/>`_, in particular we use Gio, GLib, GObject and dconf a lot.
 
@@ -77,7 +77,7 @@ And if you want a complete IDE, there's also `Eclipse <https://www.eclipse.org/>
 Version control
 ~~~~~~~~~~~~~~~
 
-There's less choice when it comes to version control because we're all using git and nothing else. All our code is version-controlled with it.
+There's less choice when it comes to version control because we're all using `git <https://git-scm.com/>`_ and nothing else. All our code is version-controlled with it.
 
 That being said, you don't necessarily have to use the git command line.
 
@@ -120,7 +120,7 @@ And last but not least, check the plugins and features available in your IDE/edi
 Glade
 ~~~~~
 
-We can write our user interfaces in programming language, or we can use Glade and draw them with the mouse.
+We can write our user interfaces in a programming language, or we can use Glade and draw them with the mouse.
 
 `Glade <https://glade.gnome.org/>`_ is a tool to design and edit GTK user interfaces and save them in XML (in a .glade or .ui file).
 
